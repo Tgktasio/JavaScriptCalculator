@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Calculator</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=umak.edu.ph" />
+    <link rel="stylesheet" href="Calculator.css" />
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">
+            <div id="previous-operand"></div>
+            <div id="current-operand"></div>
+        </div>
+        <button type="button" class="span-two" id="clear">AC</button>
+        <button type="button" class="span-two" id="delete">DEL</button>
+
+        <button type="button" class="number" id="number-7">7</button>
+        <button type="button" class="number" id="number-8">8</button>
+        <button type="button" class="number" id="number-9">9</button>
+        <button type="button" class="operation" id="divide">/</button>
+
+        <button type="button" class="number" id="number-4">4</button>
+        <button type="button" class="number" id="number-5">5</button>
+        <button type="button" class="number" id="number-6">6</button>
+        <button type="button" class="operation" id="multiply">*</button>
+
+        <button type="button" class="number" id="number-3">3</button>
+        <button type="button" class="number" id="number-2">2</button>
+        <button type="button" class="number" id="number-1">1</button>
+        <button type="button" class="operation" id="subtract">-</button>
+
+        <button type="button" class="number" id="number-0">0</button>
+        <button type="button" class="dot" id="dot">.</button>
+        <button type="button" id="equals">=</button>
+        <button type="button" class="operation" id="add">+</button>
+
+        <button type="button" class="operation" id="power">^</button>
+        <button type="button" class="operation" id="sqrt">√</button>
+        <button type="button" class="trig" id="sin">sin</button>
+        <button type="button" class="trig" id="cos">cos</button>
+        <button type="button" class="trig" id="tan">tan</button>
+
+        <button type="button" class="operation" id="factorial">!</button>
+        <button type="button" class="operation" id="log">log</button>
+        <button type="button" class="memory" id="memory-plus">M+</button>
+        <button type="button" class="memory" id="memory-minus">M-</button>
+        <button type="button" class="memory" id="memory-recall">MR</button>
+        <button type="button" class="memory" id="memory-clear">MC</button>
+    </div>
+
+    <script src="Calculator.js"></script>
+</body>
+</html>
